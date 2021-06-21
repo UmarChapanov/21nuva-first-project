@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600&family=Roboto:wght@300;400&display=swap');
+
+
+.conteiner-course {
+    font-family: Roboto Slab;
+    margin: auto;
+    background-color: aquamarine;
+    min-width: 375px;
+    max-width: 875;
+}
+
+.name-programme {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    font-family: Roboto Slab;
+    font-size: 26px;
+}
+
+.courseprogramme {
+    display: flex;
+    justify-content: center;
+}
+
+
+.conteiner-course.tablets {
+    font-family: Roboto;
+    width: 100vh;
+}
+
+.icon {
+    width: 185.92px;
+    height: 152.84px;
+    left: 95px;
+    background: #FFFFFF;
+    box-shadow: 0.465972px 0.465972px 6.98958px rgba(0, 0, 0, 0.25);
+    border-radius: 13.9792px;
+    margin: 0px 0px 24.16px;
+}
+
+img {
+    margin: 0px;
+}
+
+h2 {
+    display: inline-block;
+    font-family: Roboto;
+    font-size: 14px;
+    margin: 0px;
+}
+
+p {
+    font-size: 12px;
+    margin: 0px;
+    display: inline-block;
+    
+}
