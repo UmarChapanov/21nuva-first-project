@@ -1,37 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600&family=Roboto:wght@300;400&display=swap');
 
+body {
+    margin: 0px;
+}
 
 .conteiner-course {
     font-family: Roboto Slab;
-    margin: auto;
-    background-color: aquamarine;
+    margin: 0px;
+    /* background-color: aquamarine; */
     min-width: 375px;
-    max-width: 875;
+    /* max-width: 875px; */
 }
 
 .name-programme {
     display: flex;
     justify-content: space-between;
+    margin: 0px;
 }
 
-h1 {
+.course-programme {
     font-family: Roboto Slab;
     font-size: 26px;
+    margin: 0px;
 }
 
-.courseprogramme {
-    display: flex;
-    justify-content: center;
-}
+.days-schedule {
+    /* display: flex; */
+    /* justify-content: center; */
+    padding-left: 95px;
+    padding-right: 94.08px;
+    padding-top: 35.66px;
+    padding-bottom: 74.16;
 
+}       
 
-.conteiner-course.tablets {
+.tablets {
     font-family: Roboto;
-    width: 100vh;
+    width: 186px;
+
 }
 
 .icon {
+    /* box-sizing: padding-box; */
     width: 185.92px;
     height: 152.84px;
     left: 95px;
@@ -41,20 +52,32 @@ h1 {
     margin: 0px 0px 24.16px;
 }
 
-img {
+.picturecourse {
     margin: 0px;
 }
 
-h2 {
+.days {
     display: inline-block;
     font-family: Roboto;
     font-size: 14px;
+    width: 170.08px;
+    /* height: 18.17px; */
+    padding-top: 5.13px;
+    padding-right: 6.52px;
+    padding-bottom: 14.91px;
+    padding-left: 9.36px;
     margin: 0px;
 }
 
-p {
-    font-size: 12px;
-    margin: 0px;
+.date-name {
+    box-sizing: content-box;
     display: inline-block;
-    
+    font-size: 12px;
+    width: 170.08px;
+    height: 29.36px;
+    padding-top: 0px;
+    padding-right: 6.99px;
+    padding-bottom: 10.72px;
+    padding-left: 8.85px;
+    margin: 0px;
 }
