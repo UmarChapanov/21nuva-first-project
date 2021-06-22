@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body {
+    font-family: 'Roboto Slab', 'Roboto', sans-serif;
+}
+.mainblock {
+    background-color: #9DC9C8;
+    min-width: 375px;
+    height: 363px;
+}
+.date {
+    font-size: 26px;
+    font-weight: 700;
+    padding-left: 34px;
+    padding-top: 62px;
+}
+.nachalo {
+    min-width: 220px;
+}
+.sent {
+    min-width: 227px;
+}
+.price {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    padding-left: 34px;
+    padding-top: 22px;
+}
+.rub {
+    font-family: 'Roboto', sans-serif;
+    padding-left: 34px;
+    font-size: 37px;
+    font-weight: 400;
+    
+}
+.lowblocks {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    padding-left: 34px;
+    margin-top: 23px;
+}
+.firstlowblock {
+    margin-right: 31px;
+}
+.anylevel {
+    font-size: 12px;
+    width: 138px;
+}
+.course {
+    font-size: 10px;
+    width: 138px;
+    margin-top: 5px;
+}
+.rightnow {
+    font-size: 12px;
+    width: 138px;
+}
+.ifyou {
+    font-size: 10px;
+    width: 140px;
+    margin-top: 5px;
+}
+.mainblackblock {
+    background-color: black;
+    min-width: 375px;
+    height: 251px;
+}
+.sincro {
+    padding-top: 23px;
+    padding-left: 34px;
+}
+.pic {
+    width: 54px;
+}
+.icons {
+    display:flex;
+    margin-top: 14px;
+}
+.facebook {
+    margin-left: 8px;
+}
+.vk {
+    margin-left: 8px;
+}
+.viber {
+    margin-left: 8px;
+}
+.phone {
+    display:flex;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    padding-left: 34px;
+    padding-top: 40px;
+}
+.phonenumber {
+    padding-left:10px;
+}
+.mail {
+    display:flex;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    padding-left: 34px;
+    padding-top: 10px;
+}
+.mailadress {
+    padding-left:10px;
+}
+.final {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    padding-left: 34px;
+    margin-top: 50px;
+}
+@media (min-width: 834px) and (max-width: 1279px) {
+    .date {
+        display:flex;
+        font-size: 32px;
+        padding-left: 71px;
+        padding-top: 104px;
+    }
+    .nachalo {
+        margin-right: 10px;
+    }
+    .mainblock {
+        height: 452px;
+    }
+    .price {
+        font-size: 14px;
+        padding-left: 71px;
+    }
+    .rub {
+        font-size: 46px;
+        padding-left: 71px;
+    }
+    .lowblocks {
+        padding-left: 71px;
+        padding-top: 25px;
+    }
+    .anylevel {
+        font-size: 14px;
+    }
+    .rightnow {
+        font-size: 14px;
+    }
+    .firstlowblock {
+        margin-right: 80px;
+    }
+    .mainblackblock {
+        height: 226px;
+    }
+    .sincro {
+        padding-left: 71px;
+        padding-top: 29px;
+    }
+    .pic {
+        width: 67px;
+    }
+    .inst {
+        width: 19px;
+    }
+    .facebook {
+        width: 19px;
+    }
+    .vk {
+        width: 19px;
+    }
+    .viber {
+        width: 19px;
+    }
+    .phonepic {
+        width: 16px;
+    }
+    .mailpic {
+        width: 16px;
+    }
+    .blackflex {
+        display:flex;
+    }
+    .contacts {
+        padding-left: 400px;
+    }
+    .final {
+        padding-left: 71px;
+        padding-top: 30px;
+    }
+}
+@media (min-width: 1280px) {
+    .date {
+        display:flex;
+        font-size: 55px;
+        padding-left: 122px;
+        padding-top: 179px;
+    }
+    .nachalo {
+        margin-right: 10px;
+    }
+    .mainblock {
+        height: 780px;
+    }
+    .price {
+        font-size: 25px;
+        padding-left: 122px;
+    }
+    .rub {
+        font-size: 80px;
+        padding-left: 122px;
+    }
+    .lowblocks {
+        padding-left: 122px;
+        padding-top: 50px;
+    }
+    .anylevel {
+        width: 294px;
+        font-size: 25px;
+    }
+    .rightnow {
+        width: 294px;
+        font-size: 25px;
+    }
+    .course {
+        font-size: 18px;
+        width: 294px;
+    }
+    .ifyou {
+        font-size: 18px;
+        width: 294px;
+    }
+    .firstlowblock {
+        margin-right: 80px;
+    }
+    .mainblackblock {
+        height: 390px;
+    }
+    .sincro {
+        padding-left: 122px;
+        padding-top: 50px;
+    }
+    .pic {
+        width: 115px;
+    }
+    .inst {
+        width: 33px;
+    }
+    .facebook {
+        width: 33px;
+    }
+    .vk {
+        width: 33px;
+    }
+    .viber {
+        width: 33px;
+    }
+    .phonepic {
+        width: 27px;
+    }
+    .phonenumber {
+        font-size: 25px;
+    }
+    .mailpic {
+        width: 27px;
+    }
+    .mailadress {
+        font-size: 25px;
+    }
+    .blackflex {
+        display:flex;
+    }
+    .contacts {
+        padding-left: 400px;
+    }
+    .final {
+        font-size: 25px;
+        padding-left: 122px;
+        padding-top: 80px;
+    }
+}
