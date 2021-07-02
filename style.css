@@ -1,6 +1,8 @@
-
- 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body {
+  margin: 0px;
+    font-family: 'Roboto Slab', 'Roboto', sans-serif;}
 
 
 
@@ -347,13 +349,20 @@
 
 @media (max-width: 833px) {
   .main-wrapper {
+    margin-top: 64px;
     background-color: white;
     padding-left: 36px;
     font-family: 'Roboto';
-    margin: 0px;
+    /* margin: 0px; */
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    
   }
   
   .format-zagolovok-h2 {
+    font-family: Roboto Slab, sans-serif;
+    font-weight: 700;
     font-size: 26px;
     margin-top: 0px;
     margin-bottom:29px;
@@ -364,17 +373,20 @@
   }
 
 .zagolovok-in-format-block {
+  font-family: Roboto;
+  font-weight: 700;
   font-size:12px;
-  color:red;
+  color: rgb(30,70, 129);
   margin:0px;
   Line-height:130%;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
  
 }
 
 .text-in-format-block {
   font-size:10px;
-  Line height: 130%;
+  font-family: Roboto;
+  line-height: 130%;
   margin:0px;
   margin-bottom:30px;
   
@@ -399,6 +411,10 @@
 
 
 .zagolovok-chto-uznaem {
+  font-family: Roboto Slab;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 101.38%;
   margin-bottom:25px;
   /* display:flex;
   justify-content: space-between; */
@@ -434,14 +450,13 @@
   .dinasour-pic {
     width:145px;
     height:83px;
-    border:2px blue solid;
     display:block;
     margin:0 auto;
   }
 
 }
 
-@media  (min-width: 833px) and (max-width: 1439px) {
+@media  (min-width: 833px) and (max-width: 1279px) {
 
 
   .main-wrapper {
@@ -527,14 +542,13 @@ max-width: 153px;
 .dinasour-pic {
   width:180px;
   height:104px;
-  border:2px blue solid;
 }
 
 
 }
 
 
-@media  (min-width: 1440px)  {
+@media  (min-width: 1280px)  {
 
   .main-wrapper{
     background-color: 70px;
@@ -624,7 +638,7 @@ max-width: 223px;
 .dinasour-pic {
   width:312px;
   height:180px;
-  border:2px blue solid;
+  
 } 
 
 
@@ -997,14 +1011,24 @@ max-width: 223px;
   margin-top: 13px;
   margin-left: 3px;
 }
+.inst {
+  width: 15.38px;
+  height: 15.38px;
+}
 .facebook {
-  margin-left: 8px;
+  width: 14.91px;
+  height: 14.91px;
+  margin-left: 8.39px;
 }
 .vk {
-  margin-left: 8px;
+  width: 16.31px;
+  height: 16.31px;
+  margin-left: 9.78px;
 }
 .viber {
-  margin-left: 10px;
+  width: 15.84px;
+  height: 15.84px;
+  margin-left: 11.65px;
 }
 .contacts {
   margin-top: 7px;
@@ -1022,6 +1046,10 @@ max-width: 223px;
   padding-left:10px;
   padding-top: 2px;
 }
+.phonepic {
+  width: 12.58px;
+  height: 12.58px;
+}
 .mail {
   display:flex;
   color: white;
@@ -1030,6 +1058,10 @@ max-width: 223px;
   font-weight: 400;
   padding-left: 38px;
   padding-top: 7px;
+}
+.mailpic {
+  width: 12.58px;
+  height: 8.39px;
 }
 .mailadress {
   padding-left:10px;
@@ -1148,28 +1180,35 @@ max-width: 223px;
       width: 67px;
   }
   .inst {
-      width: 19px;
+      width: 19.11px;
+      height: 19.11px;
       padding-top: 4px;
   }
   .facebook {
-      width: 19px;
+      width: 18.53px;
+      height: 18.53px;
       padding-left: 3px;
   }
   .vk {
-      width: 19px;
+      width: 20.27px;
+      height: 20.27px;
       padding-left: 5px;
       padding-top: 2px;
   }
   .viber {
-      width: 19px;
+      width: 19.69px;
+      height: 19.69px;
       padding-left: 6px;
       padding-top: 3px;
   }
   .phonepic {
-      width: 16px;
+      width: 15.64px;
+      height: 15.64px;
   }
   .mailpic {
-      width: 16px;
+      width: 15.64px;
+      height: 10.43px;
+
   }
   .blackflex {
       display:flex;
@@ -1311,28 +1350,34 @@ max-width: 223px;
       margin-top: 30px;
   }
   .inst {
-      width: 35px;
+      width: 33px;
+      height: 33px;
   }
   .facebook {
-      width: 33px;
+      width: 32px;
+      height: 32px;
       margin-left: 15px;
   }
   .vk {
-      width: 33px;
+      width: 35px;
+      height: 35px;
       padding-left: 12px;
       margin-right: 18px;
   }
   .viber {
-      width: 33px;
+      width: 34px;
+      height: 34px;
   }
   .phonepic {
       width: 27px;
+      height: 27px;
   }
   .phonenumber {
       font-size: 25px;
   }
   .mailpic {
       width: 27px;
+      height: 18px;
   }
   .mailadress {
       font-size: 25px;
@@ -1360,6 +1405,254 @@ max-width: 223px;
       padding-top: 90px;
   }
 }
+
+/* СТИЛИ НИКИТЫ 2 */
+
+.aboutcourse {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 26.36px;
+    font-family: Roboto Slab;
+    margin-left: 36px;
+    margin-top: 80px;
+}
+.sometimesfilms {
+    font-family: Roboto;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    margin-top: 23px;
+    margin-left: 36px;
+    margin-right: 30.53px;
+}
+.onthiscourse {
+    padding-top: 7px;
+}
+.bigoperator {
+    height: 146.32px;
+    width: 146.78px;
+    margin-left: 113.12px;
+    margin-top: 3px;
+}
+.picandtext {
+    display:flex;
+    
+    margin-left: 35px;
+    margin-top: 55.71px;
+}
+.liltexts {
+    display: flex;
+    flex-wrap: wrap;
+    width: 210px;
+}
+.eightlessonstitle {
+    font-family: Roboto;
+    font-size: 12px;
+    line-height: 15.6px;
+    font-weight: 700;
+}
+.eightlessonstext {
+    font-family: Roboto;
+    font-size: 10px;
+    line-height: 13px;
+    font-weight: 400;
+    width: 86px;
+    margin-top: 3px;
+}
+.twohourstitle {
+    font-family: Roboto;
+    font-size: 12px;
+    line-height: 15.6px;
+    font-weight: 700;
+    margin-left: 33.33px;
+}
+.twohourstext {
+    font-family: Roboto;
+    font-size: 10px;
+    line-height: 13px;
+    font-weight: 400;
+    width: 86px;
+    margin-left: 33.33px;
+    margin-top: 3px;
+}
+.threeweekstitle {
+    font-family: Roboto;
+    font-size: 12px;
+    line-height: 15.6px;
+    font-weight: 700;
+    margin-top: 27px;
+}
+.threeweekstext {
+    font-family: Roboto;
+    font-size: 10px;
+    line-height: 13px;
+    font-weight: 400;
+    width: 86px;
+    margin-top: 3px;
+}
+.liloperator {
+    position: relative;
+    width: 108.11px;
+    height: 94.59px;
+    top: 38px;
+    right: 22px;
+}
+@media(min-width:834px) and (max-width:1279px){
+    .aboutcourse {
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 32.44px;
+        font-family: Roboto Slab;
+        padding-top: 18px;
+        padding-left: 35px;
+    }
+    .bigtextandbigpic {
+        display: flex;
+    }
+    .sometimesfilms {
+        width: 383.41px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        font-family: Roboto;
+        margin-top: 20px;
+        padding-left: 35px;
+    }
+    .bigoperator {
+        margin-left: 80px;
+        margin-top: 47px;
+        width: 181.86px;
+        height: 182.44px;
+    }
+    .picandtext {
+        flex-direction: row-reverse;
+        margin-right: 183px;
+        margin-top: -13px;
+    }
+    .liloperator {
+        width: 134.37px;
+        height: 117.57px;
+        margin-left: 60px;
+    }
+    .liltexts {
+        
+        width: 370px;
+        margin-top: 83px;
+        margin-left: 50px;
+    }
+    .eightlessonstitle {
+        font-size: 15px;
+        margin-left: 3px;
+    }
+    .eightlessonstext {
+        font-size: 11px;
+        margin-top: 5px;
+        margin-left: 3px;
+    }
+    .twohourstitle {
+        font-size: 15px;
+        margin-left: 55px;
+    }
+    .twohourstext {
+        font-size: 11px;
+        margin-left: 56px;
+        margin-top: 5px;
+        width: 100px;
+    }
+    .threeweekstitle {
+        font-size: 15px;
+        margin-top: 0px;
+        margin-left: 40px;
+    }
+    .threeweekstext {
+        font-size: 11px;
+        margin-left: 39px;
+        margin-top: 5px;
+    }
+}
+@media(min-width:1280px) {
+        .aboutcourse {
+            font-size: 55px;
+            font-weight: 700;
+            line-height: 55.76px;
+            font-family: Roboto Slab;
+            padding-top: 78px;
+            padding-left: 85px;
+        }
+        .bigtextandbigpic {
+            display: flex;
+        }
+        .sometimesfilms {
+            min-width: 662px;
+            height: 374px;
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 36px;
+            font-family: Roboto;
+            margin-top: 35px;
+            margin-right: 0px;
+            padding-left: 85px;
+        }
+        .onthiscourse {
+            padding-top: 10px;
+        }
+        .bigoperator {
+            margin-left: 190px;
+            margin-top: 80px;
+            width: 314px;
+            height: 315px;
+        }
+        .picandtext {
+            flex-direction: row-reverse;
+            margin-right: 155px;
+            margin-top: 80px;
+        }
+        .liloperator {
+            width: 232px;
+            height: 203px;
+            margin-left: 110px;
+        }
+        .liltexts {
+            
+            width: 700px;
+            margin-top: 115px;
+            margin-left: 50px;
+        }
+        .eightlessonstitle {
+            font-size: 25px;
+            margin-left: 58px;
+        }
+        .eightlessonstext {
+            width: 150px;
+            line-height: 23.4px;
+            font-size: 18px;
+            margin-top: 18px;
+            margin-left: 58px;
+        }
+        .twohourstitle {
+            font-size: 25px;
+            margin-left: 95px;
+        }
+        .twohourstext {
+            line-height: 23.4px;
+            font-size: 18px;
+            margin-left: 96px;
+            margin-top: 15px;
+            width: 150px;
+        }
+        .threeweekstitle {
+            font-size: 25px;
+            margin-top: 0px;
+            margin-left: 92px;
+        }
+        .threeweekstext {
+            width: 150px;
+            line-height: 23.4px;
+            font-size: 18px;
+            margin-left: 92px;
+            margin-top: 17px;
+        }
+        }
 
 
 
