@@ -647,232 +647,264 @@ max-width: 223px;
 /* СТИЛИ АДЕЛИНЫ ----------------------------------------------------------------------- */
 
 .adelina {
-  width: 100%;
-  height: 100%;
-  background-color: lightsteelblue;
-  flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    background-color: lightsteelblue;
+    flex-wrap: wrap;
 }
 /* desktop */
 @media (min-width: 1280px) {
 .adelina-pad {
-  display: none;
+    display: none;
 }
 .adelina-mobile {
-  display: none;
+    display: none;
 }
 .adel-header-name-programme {
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .adel-black-line {
-  width: 43.75%;
-  height: 14px;
-  background-color: black;
+    width: 43.75%;
+    height: 14px;
+    background-color: black;
+    margin-top: 12px;
 }
 .adel-course-programme {
-  font-family: Roboto Slab;
-  font-size: 55px;
-  padding-left: 123px;
-  margin-top: 61px;
+    font-family: Roboto Slab;
+    font-size: 55px;
+    padding-left: 114px;
+    margin-top: 61px;
 }
 .adel-tablets {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: flex-start;
-  margin: 0px;
-  padding-left: 84px;
-  padding-top: 69px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0px;
+    padding-left: 76px;
+    padding-top: 69px;
 }
 .adel-icon {
-  width: 399px;
-  height: 328px;
-  background: #FFFFFF;
-  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
-  border-radius: 30px;
-  margin-right: 37px;
-  margin-bottom: 41px;
+    width: 399px;
+    height: 328px;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    margin-right: 37px;
+    margin-bottom: 41px;
+}
+#adel-icon {
+    width: 399px;
+    height: 328px;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    margin-right: 37px;
+    margin-bottom: 47px;
 }
 .adel-picturecourse {
-  width: 100%;
+    width: 100%;
 }
 .adel-days {
-  display: inline-block;
-  font-family: Roboto;
-  font-size: 30px;
-  padding-top: 8px;
-  padding-left: 19px;
-  margin: 0px;
+    display: inline-block;
+    font-family: Roboto;
+    font-size: 30px;
+    padding-top: 8px;
+    padding-left: 23px;
+    margin: 0px;
 }
 #adel-days {
-  display: inline-block;
-  font-family: Roboto;
-  font-size: 30px;
-  padding-top: 8px;
-  padding-left: 19px;
-  margin: 0px;
+    display: inline-block;
+    font-family: Roboto;
+    font-size: 30px;
+    padding-top: 8px;
+    padding-left: 19px;
+    margin: 0px;
 }
 .adel-date-name {
-  display: inline-block;
-  font-family: Roboto;
-  font-size: 25px;
-  padding-top: 13px;
-  padding-left: 19px;
+    display: inline-block;
+    font-family: Roboto;
+    font-size: 25px;
+    padding-top: 37px;
+    padding-left: 19px;
+    margin: 0px;
 }
 #adel-date-name {
-  display: inline-block;
-  font-family: Roboto;
-  font-size: 25px;
-  padding-top: 13px;
-  padding-left: 19px;
+    display: inline-block;
+    font-family: Roboto;
+    font-size: 25px;
+    padding-top: 4px;
+    padding-left: 19px;
+    margin: 0px;
 }
 }
 /* pad */
 @media (max-width: 1279px) and (min-width: 834px) {
-  .adelina-desktop {
-      display: none;
-  }
-  .adelina-mobile {
-      display: none;
-  }
-  .adel-header-name-programme{
-      margin: auto;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-  }
-  .adel-black-line {
-      width: 43.75%;
-      height: 8.11px;
-      background-color: black;
-  }
-  .adel-course-programme {
-      font-family: Roboto Slab;
-      font-size: 32px;
-      padding-left: 72.08px;
-  }
-  .adel-tablets {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      justify-content: flex-start;
-      margin: 0px;
-      padding-left: 48.65px;
-      padding-top: 40px;
-  }
-  .adel-icon {
-      width: 231.09px;
-      height: 189.97px;
-      background: #FFFFFF;
-      box-shadow: 0.579167px 0.579167px 8.6875px rgba(0, 0, 0, 0.25);
-      border-radius: 17.375px;
-      margin-right: 21.43px;
-      margin-bottom: 23.75px;
-  }
-  .adel-picturecourse {
-      width: 100%;
-  }
-  .adel-days {
-      display: inline-block;
-      font-family: Roboto;
-      font-size: 17px;        
-      padding-top: 3px;
-      padding-left: 15px;
-      margin: 0px;
-  }
-  /* #adel-days {
-      font-family: Roboto;
-      font-size: 14px;
-      padding-top: 5.13px;
-      padding-right: 6.52px;
-      padding-bottom: 0px;
-      padding-left: 9.36px;
-      margin: 0px;
-  } */
-  .adel-date-name {
-      display: inline-block;
-      font-family: Roboto;
-      font-size: 14px;
-      padding-top: 21px;
-      padding-left: 12px;
-      margin: 0px;
-  }
+    .adelina-desktop {
+        display: none;
+    }
+    .adelina-mobile {
+        display: none;
+    }
+    .adel-header-name-programme{
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .adel-black-line {
+        width: 43.75%;
+        height: 8.11px;
+        background-color: black;
+        margin-top: 6px;
+    }
+    .adel-course-programme {
+        font-family: Roboto Slab;
+        font-size: 32px;
+        padding-left: 62.5px;
+    }
+    .adel-tablets {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: flex-start;
+        margin: 0px;
+        padding-left: 41px;
+        padding-top: 39px;
+    }
+    .adel-icon {
+        width: 231.09px;
+        height: 189.97px;
+        background: #FFFFFF;
+        box-shadow: 0.579167px 0.579167px 8.6875px rgba(0, 0, 0, 0.25);
+        border-radius: 17.375px;
+        margin-right: 21.43px;
+        margin-bottom: 23.75px;
+    }
+    #adel-icon {
+        width: 231.09px;
+        height: 189.97px;
+        background: #FFFFFF;
+        box-shadow: 0.579167px 0.579167px 8.6875px rgba(0, 0, 0, 0.25);
+        border-radius: 17.375px;
+        margin-right: 21.43px;
+        margin-bottom: 26.06px;
+    }
+    .adel-picturecourse {
+        width: 100%;
+    }
+    .adel-days {
+        display: inline-block;
+        font-family: Roboto;
+        font-size: 17px;        
+        padding-top: 3px;
+        padding-left: 13px;
+        margin: 0px;
+    }
+    #adel-days {
+        display: inline-block;
+        font-family: Roboto;
+        font-size: 17px;        
+        padding-top: 0.5px;
+        padding-left: 12px;
+        margin: 0px;
+    }
+    .adel-date-name {
+        display: inline-block;
+        font-family: Roboto;
+        font-size: 14px;
+        padding-top: 21px;
+        padding-left: 12px;
+        margin: 0px;
+    }
+    #adel-date-name {
+        display: inline-block;
+        font-family: Roboto;
+        font-size: 14px;
+        padding-top: 3.5px;
+        padding-left: 12px;
+        margin: 0px;
+    }
 }
 /* mobile */
 @media (max-width: 833px) and (min-width: 375px ) {
-  .adelina-desktop {
-      display: none;
-  }
-  .adelina-pad {
-      display: none;
-  }
-  .adelina {
-      width: 100%;
-  }
-  .adel-header-name-programme {
-      margin: auto;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-  }
-  .adel-black-line {
-      width: 18.65%;
-      height: 6.52px;
-      background-color: black;
-  }
-  .adel-course-programme {
-      font-family: Roboto Slab;
-      font-size: 26px;
-      padding-left: 34px;
-      margin: 0px;
-  }
-  .adel-tablets {
-      font-family: Roboto;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding-top: 47px;
-  }
-  .adel-icon {
-      width: 185.92px;
-      height: 152.84px;
-      left: 95px;
-      background: #FFFFFF;
-      box-shadow: 0.465972px 0.465972px 6.98958px rgba(0, 0, 0, 0.25);
-      border-radius: 13.9792px;
-      margin: 0px 0px 24.16px;
-  }
-  .adel-picturecourse {
-      margin: 0px;
-  }
-  .adel-days {
-      font-family: Roboto;
-      font-size: 14px;
-      padding-top: 0px;
-      /* padding-right: 6.52px;
-      padding-bottom: 14.91px; */
-      padding-left: 10px;
-      margin: 0px;
-  }
-  #adel-days {
-      font-family: Roboto;
-      font-size: 14px;
-      padding-top: 0px;
-      padding-right: 6.52px;
-      padding-bottom: 0px;
-      padding-left: 9.36px;
-      margin: 0px;
-  }
-  .adel-date-name {
-      font-size: 12px;
-      padding-top: 18px;
-      padding-left: 9.5px;
-      margin: 0px;
-  }
+    .adelina-desktop {
+        display: none;
+    }
+    .adelina-pad {
+        display: none;
+    }
+    .adelina {
+        width: 100%;
+    }
+    .adel-header-name-programme {
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .adel-black-line {
+        width: 18.65%;
+        height: 6.52px;
+        background-color: black;
+    }
+    .adel-course-programme {
+        font-family: Roboto Slab;
+        font-size: 26px;
+        padding-left: 26px;
+        margin: 0px;
+    }
+    .adel-tablets {
+        font-family: Roboto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 47px;
+    }
+    .adel-icon {
+        width: 185.92px;
+        height: 152.84px;
+        left: 95px;
+        background: #FFFFFF;
+        box-shadow: 0.465972px 0.465972px 6.98958px rgba(0, 0, 0, 0.25);
+        border-radius: 13.9792px;
+        margin: 0px 0px 24.16px;
+    }
+    .adel-picturecourse {
+        margin: 0px;
+    }
+    .adel-days {
+        font-family: Roboto;
+        font-size: 14px;
+        padding-top: 2px;
+        padding-left: 10px;
+        margin: 0px;
+    }
+    #adel-days {
+        font-family: Roboto;
+        font-size: 14px;
+        padding-top: 1px;
+        padding-right: 6.52px;
+        padding-bottom: 0px;
+        padding-left: 9.36px;
+        margin: 0px;
+    }
+    .adel-date-name {
+        font-size: 12px;
+        padding-top: 18px;
+        padding-left: 9.5px;
+        margin: 0px;
+    }
+    #adel-date-name {
+        font-size: 12px;
+        padding-top: 1.5px;
+        padding-left: 9.5px;
+        margin: 0px;
+    }
 }
-
 
 /*  ---------------------СТИЛИ НИКИТЫ ------------------------------------------------------ */
 
