@@ -934,7 +934,7 @@ max-width: 223px;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   margin-left: 20px;
-  padding-top: 20px;
+  padding-top: 19px;
   margin-right: 20px;
 }
 .kate {
@@ -942,8 +942,8 @@ max-width: 223px;
 }
 .katespic {
   height: 84px;
-  margin-top: 14px;
-  margin-left: 13px;
+  margin-top: 12px;
+  margin-left: 12px;
 }
 .nameandfacebook {
   margin-left: 6px;
@@ -952,7 +952,7 @@ max-width: 223px;
   font-size: 14px;
   font-weight: 700;
   line-height: 14px;
-  padding-top: 32px;
+  padding-top: 30px;
 }
 .ekaterinafacebook {
   margin-top: 19px;
@@ -1204,8 +1204,8 @@ max-width: 223px;
       height: 226px;
   }
   .sincro {
-      padding-left: 66px;
-      padding-top: 29px;
+      padding-left: 67px;
+      padding-top: 28px;
   }
   .pic {
       width: 67px;
@@ -1219,18 +1219,19 @@ max-width: 223px;
       width: 18.53px;
       height: 18.53px;
       padding-left: 3px;
+      padding-top: 4px;
   }
   .vk {
       width: 20.27px;
       height: 20.27px;
-      padding-left: 5px;
-      padding-top: 2px;
+      padding-left: 2px;
+      padding-top: 4px;
   }
   .viber {
       width: 19.69px;
       height: 19.69px;
-      padding-left: 6px;
-      padding-top: 3px;
+      padding-left: 3px;
+      padding-top: 4px;
   }
   .phonepic {
       width: 15.64px;
@@ -1246,16 +1247,22 @@ max-width: 223px;
       justify-content: space-between;
   }
   .contacts {
-      margin-right: 84px;
+      margin-right: 100px;
       margin-top: -10px;
   }
   .phone {
       font-size: 14px;
-      margin-left: 4px;
+      margin-right: 22px;
+  }
+  .phonenumber {
+    padding-left: 12px;
   }
   .mail {
       margin-top: 4px;
       font-size: 14px;
+  }
+  .mailadress {
+    padding-left: 12px;
   }
   .final {
       padding-left: 70px;
