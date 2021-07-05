@@ -1693,6 +1693,336 @@ max-width: 223px;
         }
 
 
+/*  СТИЛИ ВЛАДА  ------------------------*/ 
+
+.principal-wrapper {
+    padding-left:25px;
+    font-family: 'Roboto Slab', 'Roboto', sans-serif;
+}
+
+body {
+    margin:0px;
+}
+
+
+.avtori-and-ostalnoe {
+    margin-bottom:80px;
+}
+.avtori-zagolovok {
+    margin-top:0px;
+    margin-bottom:28px;
+    font-size:26px;
+}
+
+.pic-and-zaholovki {
+    display:flex;
+    align-items: center;
+    
+}
+
+.danila {
+  margin:0px;
+  display:flex;
+}
+
+.rejisser {
+    margin:0px;
+}
+
+.just-text {
+    padding-left:95px;
+    Line-height: 130%;
+    font-size:10px;
+    max-width:214px;
+    /* max-height:124px; */
+}
+
+.first-p {
+    margin-bottom:18px;
+}
+
+.danila {
+    font-size:14px;
+    padding-left:10px;
+    margin-bottom: 5px;
+}
+
+.rejisser {
+    font-size:10px;
+    padding-left:10px;
+}
+
+/* second  */
+
+.chuvak {
+    width:146px;
+    height:115px;
+    border:2px solid yellow;
+    display:none;
+}
+
+.rejisser.second {
+    max-width:200px;
+}
+
+
+
+
+
+
+@media (min-width: 834px)  {
+
+    .i {
+        display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  border-radius: 50%;
+  color: white;
+  height: 20px;
+  width: 20px;
+  box-shadow:0.579167px 0.579167px 4.63333px #5784C8;
+  background: #FFFFFF;
+  margin-left:20px;
+
+  
+    }
+
+    .avtori-zagolovok {
+   margin-bottom:40px;
+    }
+
+    .principal-wrapper {
+        padding-left:70px;
+        display:flex;
+    }
+
+    .second-block-s-kartinkoj-bez-avtorov {
+        display:flex;
+        flex-direction:column-reverse;
+        margin-top:-50px;
+        /* ОТРИЦАТЕЛЬНЫЙ margin */
+        
+    }
+
+    
+
+    .avtori-and-ostalnoe {
+        position: relative;
+        top:160px;
+        padding-left: 0px;
+        margin-bottom:0px;
+        /* УБРАЛ ОТСТУПЫ */
+    }
+
+    .pic-and-zaholovki {
+        padding-left:30px;
+    }
+
+    .danila {
+        
+    }
+
+    .rejisser {
+        
+    }
+
+    /* дублируетя с just-text-second */
+     .just-text {
+       padding-left:0px;
+       margin-left:120px;
+       /* border:2px solid black; */
+       padding:9px;
+       font-size:10px;
+       border-radius:10px;
+       box-shadow: 0 0 11px 4px rgba(0, 0, 0, 0.25);
+        
+    } 
+
+    .just-text.first {
+       width:231px;
+       height:158px;
+       box-sizing: border-box;
+       padding-left:20px;
+       margin-left:130px;
+    }
+
+    .first-p {
+        margin:0px;
+    }
+   
+    .second-p {
+        margin:0px;
+    }
+
+    .just-text.second {
+        padding-top:10px;
+        padding-bottom: 20px;
+        /* min-width: 215px; */
+        padding-left:14px;
+        padding-right:14px;
+        /* уменьшил ширину */
+       }
+
+
+    .chuvak {
+        width:146px;
+        height:115px;
+        border:2px solid yellow;
+        display:inline-block;
+        margin-left:50%;
+
+    }
+
+    .bio-borod.tablet {
+        width:109px;
+        height:103px;
+    }
+
+    .bio-borod.second.tablet {
+        width:104px;
+        height:96px;
+    }
+
+
+
+    .pic-and-zaholovki.second {
+        padding: left 30px;
+        margin-top:0px;
+        /* margin-bottom:20px; */
+        margin-top:12px;
+
+
+
+        
+    }
+
+    .text-intext {
+
+    }
+    .first-p.second {
+        margin-top:0px;
+       
+        
+        Line-height: 130%;
+        margin:0px;
+        margin-bottom:10px;
+        margin-right:3px;
+    }
+
+    .second-p.second {
+        margin-top:0px;
+        margin-right:10px;
+        margin-bottom:0px;
+        
+        Line-height: 130%;
+        margin:0px;
+    }
+
+    .danila.second {
+        font-size: 14px;
+
+    }
+  
+}
+
+
+@media (min-width: 1280px) {
+
+.avtori-zagolovok {
+    font-family: 'Roboto Slab';
+    font-size:55px;
+    margin-bottom:70px;
+}
+
+.principal-wrapper {
+    padding-left:122px;
+    display:flex;
+}
+
+.bio-borod.dekstop {
+    width:189px;
+    height:178px;
+}
+.danila {
+    font-size: 30px;
+    display:flex;
+    align-items: center;
+    padding-left:10px;
+}
+.rejisser {
+    font-size:18px;
+}
+  .just-text {
+    box-sizing: content-box;
+    max-width:1500px;
+}  
+
+.just-text.first {
+    margin: 0px;
+    margin-left:210px;
+    width:389px;
+    height:224px;
+    box-sizing: content-box;
+    font-size: 18px;
+    padding:20px;
+    padding-right:0px;
+    line-height: 130%;
+    padding-bottom:15px;
+    padding-left:22px;
+
+
+}
+
+.first-p {
+    margin-bottom: 16px;
+}
+
+.bio-borod.second.dekstop {
+width:180px;
+height:166px;
+
+}
+ .tolko-zagolovki.second {
+    width:356px;
+} 
+
+.danila.second {
+    font-size:30px;
+    display:flex;
+    align-items: center;
+}
+
+.rejisser.second {
+    max-width:2000px;
+}
+
+
+
+.pic-and-zaholovki.second {
+   padding-left:0px;
+   margin-top:30px;
+}
+
+/* iiiii */
+
+.second-block-s-kartinkoj-bez-avtorov {
+    margin-top:-590px;
+}
+
+
+.just-text.second {
+ width:329px;
+height:359px; 
+margin-left:190px;
+font-size:18px;
+padding-right:80px;
+}
+
+
+
+}
+
 
 
 
